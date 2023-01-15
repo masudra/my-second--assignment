@@ -204,5 +204,121 @@
     font-weight: 100;
     font-family:Calibri;
     margin-top: 10px;
+}
+
+  /*---five-containar-div---*/
+.five-containar-div{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 150px;
 
 }
+
+.five-containar-div-child{
+    border: 1px solid #ffa600;
+    border-radius: 6px;
+    height: 130px;
+    width: 140px;
+    text-align: center;
+    padding: 20px;
+   
+}
+.ive-containar-div-child h1{
+    margin-top: 10px;
+
+}
+.five-containar-div-child h2{
+    font-size: 16px;
+    margin-top: 6px;
+    font-weight: 100;
+    font-family: Calibri;
+
+}
+
+ /*---our-sponspors---*/
+
+
+.our-sponspors{
+    text-align: center;
+    margin-top: 120px;
+
+
+}
+.our-sponspors h1{
+  
+   font-family:Arial rgba(0, 0, 0, 0.815) ;
+
+}
+.our-sponspors p{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Calibri;
+}
+/*--sponspor logo*/
+
+
+.last-div{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 145px;
+    filter: grayscale(100%);
+}
+
+.last-div img{
+    width: 120px;
+    height: 45px;
+}
+
+
+/*Exta Section*/
+
+.exta-section-header h2{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 70px;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.exta-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+    margin-left: 100px;
+}
+.exta-section img{
+    width:230px ;
+    height: 230px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.exta-section h2{
+    padding: 20px;
+
+}
+.exta-section p{
+    padding: 20px;
+
+}
+
+
+/*---Footer--*/
+
+.footer-div{
+    margin-left: 200px;
+    width: 950px;
+    height: 60px;
+    margin-top: 70px;
+    margin-bottom: 150px;
+    background-color:rgba(255, 144, 14, 0.1) ;
+
+}
+.footer p{
+    text-align: center;
+    padding: 20px;
+    font-family: Calibri;
+
+}
+
