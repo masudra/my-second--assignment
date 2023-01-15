@@ -14,7 +14,6 @@
 .menu-bar h2{
     font-size: 30px;
     font-family: Arial Black;
-    
   
 }
 .menu-bar a{
@@ -351,9 +350,145 @@
 ----Mobile view------
 --------------------- */
 
-@media screen and(max-width:576px) {
+@media screen and (max-width:776px) {
+    *{
+        margin: 0px;
+    }
+    .main-section{
+        height: 760px;
+        padding: 10px;
+        
+    }
+
+    .menu-bar{
+        display: inline;
+        margin: 5px;margin-top: 10px;
+       
+    }
+    .menu-bar h2{
+        margin-top: 10px;
+        margin-bottom: 20px;
+       text-align: center;
+    }
+    
+    .menu-bar a{
+        margin: 10px;
+        margin-left: 22px;
+    }
+    .image img{
+        display: calc(1);
+        width: 300px;
+        height: 180px;
+        margin-left: 22px;
+    }
+
+    /*teame-info*/
+
+      .teame-info{
+        display: inline;
+        justify-content: center;
+        margin-top:20px;
+        margin-left: 10px;
+      }
+
+    .teame-info-fast-container{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        margin:20px 60px;
+    }
+
+    
+
+    /*---third-container---*/
+
+    .third-container{
+        display:inline;
+        margin-left: 20px;
+    }
+
+.third-container-secend img{
+    display: inline;
+    width: 280px;
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.third-container-2nd-div,.third-container-1st-div{
+    padding: 10px;
+
+}
+
+
+/*---fourt-containar--*/
+
+.fourt-containar{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+   /*---five-containar-div--*/
+   .five-containar-div{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px;
+    
+   }
+   .five-containar-div-child:hover{
+    transform:scale(1.3);
+   overflow-y: 2.5;
+   transition: 2s;
+}
+
+
+.five-containar-div-child img:hover{
+   transform:scale(1.5);
+   overflow-y: 2.5;
+   transition: 2s;
+
+}
+    /*---our-sponspors---*/
+    .our-sponspors{
+        padding: 10px;
+        margin-top: 10px;
+    }
+    /*---last-div---*/
+    .last-div{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 25px;
+    }
+
+    /*exta-section---*/
+
+    .exta-section-header{
+        padding: 20px;
+
+    }
+    .exta-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 50px;
+    }
+    /*---footer---*/
+    .footer-div{
+        width: 300px;
+        height: 80px;
+        margin-left:25px ;
+    }
+
+
+
+
+
+
 
 
     
+.last-button{
+    display: none;
+}
+
+
+
 }
 
